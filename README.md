@@ -6,11 +6,13 @@
 - Breadth First Search
 - Depth First Search (with cycle detection)
 - String pattern matching - rabin karp
+- Union find
+- min_heap - wrapper around heapq for min heaps
+- max_heap - wrapper around heapq for min heaps (using negation of initial values)
 
 ### TODO
 
 - Djikstra
-- Union find
 - Trie
 - Prims
 - Kruskal
