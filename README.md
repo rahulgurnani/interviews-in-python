@@ -27,6 +27,15 @@ Formatted print
 print("My name is {} {}".format(first, last))
 ```
 
+### Sort based on a key
+```
+def sortKey(v):
+  return v[1]
+ls = [(2,7), (5,6)]
+ls.sort(key=sortKey) # [(5, 6), (2, 7)]
+
+```
+
 ### ASCII to chr 
 
 `ord('a') # 97`
