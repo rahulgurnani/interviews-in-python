@@ -59,6 +59,12 @@ numbers = [1, 2, 3, 4, 5]
 numbers5 = [i* 5 for i in numbers]
 ```
 
+### Enumerate and items
+
+enumerate(alist) to get i, v
+
+dictionarys.items() to get k, v
+
 ### Mutable string
 TODO
 
@@ -122,6 +128,12 @@ for edge in edges:
 
 NOTE: defaultdict(int) will initialize dictionary with default value of any key = 0
 
+### Dictionary
+
+key deletion
+
+`del mapping['key']`
+
 ### Counter class
 Useful if we want count of occurrences of numbers in a list
 ```
@@ -145,4 +157,11 @@ Suppose you have a 2D array. You want to make copy of this array in order to mut
 from copy import copy, deepcopy
 x = [[1, 2], [3, 4]]
 y = deepcopy(x)
+```
+
+### Binary Search
+```
+from bisect import bisect_left, bisect_right
+a = [1,2,3]
+bisect_left(a, 2) # gives 1
 ```
