@@ -16,6 +16,31 @@ def dfs(G, root):
         last = current
 
 
+def dfs2(G, root):
+    # this implementation is more efficient
+    stack = list()
+    visited = set()
+
+    indices = dict()
+    for node in G:
+        indices[node] = -1
+
+    stack.append((root, None))
+    while stack:
+        p = stack[-1]
+        current = p[0]
+        parent = p[1]
+        if indices[current] == -1:
+            indices[current] += 1
+            print(current)
+        if indices[current] < len(G[current]):
+            if G[current][indices[current]] != parent:
+                stack.append((G[current][indices[current]], current))
+            indices[current] += 1
+        else:
+            stack.pop()
+
+
 graph = {
     1: [2, 3],
     2: [1, 4, 5],
@@ -32,4 +57,4 @@ graph = {
   /\  /  \
  4  5 6 - 7
 """
-dfs(graph, 1)
+dfs2(graph, 1)
