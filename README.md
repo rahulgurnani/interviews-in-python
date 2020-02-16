@@ -165,3 +165,11 @@ from bisect import bisect_left, bisect_right
 a = [1,2,3]
 bisect_left(a, 2) # gives 1
 ```
+
+### String in set in python
+```
+strings = set()
+strings.add('rahul')
+strings.add('something')
+'rahul' in strings # O(1) operation
+```
