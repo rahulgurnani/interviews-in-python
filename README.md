@@ -173,3 +173,19 @@ strings.add('rahul')
 strings.add('something')
 'rahul' in strings # O(1) operation
 ```
+
+### List vs Tuples
+Tuples are hashable, lists are not. So, we may need to convert list to tuples.
+
+```
+ls = [1,2,3]
+t = tuple(ls)
+```
+
+### zip and unzip
+
+Useful if we have 2 lists which we want to combine and do some operations
+```
+listpairs = list(zip(list1, list2))
+list1, list2 = zip(*listpairs)
+```
