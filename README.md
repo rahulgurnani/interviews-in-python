@@ -65,6 +65,13 @@ enumerate(alist) to get i, v
 
 dictionarys.items() to get k, v
 
+### String search
+
+```
+s.find(pattern, start)
+```
+find method uses Boyer-Moore algorithm.
+
 ### Mutable string
 TODO
 
