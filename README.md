@@ -81,7 +81,7 @@ comparisons are done between comparable types of objects only
 
 Sets don’t keep elements in sorted order or in any defined order
 
-### 
+### Substring of a string
 s
 ```
 >>> a = ‘rahul’
@@ -91,6 +91,7 @@ s
 ahu
 ```
 Time Complexity: O(n), a new copy is created when a substring is created
+
 ## Reversing a string
 Using the extended slice syntax: `s[::-1]` reverses the string
 
@@ -98,6 +99,7 @@ Using the extended slice syntax: `s[::-1]` reverses the string
 ```
 for i in reversed(ls):
 ```
+
 ### Infinity
 ```
 float("inf")
@@ -126,6 +128,16 @@ q.queue[-1]
 # NOTE: q.get() takes infinite time if the queue is empty
 len(q.queue) == 0 to check if the queue is empty
 ```
+
+### OrderedDict, dict and SortedSets?
+
+OrderedDict is a special type of dictionary which maintains keeps the keys in the order they were inserted into the dictionary. 
+```
+from collections import OrderedDict 
+d = OrderedDict()
+d['a'] = 'x'
+```
+Python doesn't have an implementation of sorted set.
 ### Graph
 defaultdict is often handy,
 
