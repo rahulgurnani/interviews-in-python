@@ -81,7 +81,8 @@ comparisons are done between comparable types of objects only
 
 Sets don’t keep elements in sorted order or in any defined order
 
-### Substrings
+### 
+s
 ```
 >>> a = ‘rahul’
 >>> a[1:3] 
@@ -89,6 +90,10 @@ Sets don’t keep elements in sorted order or in any defined order
 >>> a[1:-1]
 ahu
 ```
+Time Complexity: O(n), a new copy is created when a substring is created
+## Reversing a string
+Using the extended slice syntax: `s[::-1]` reverses the string
+
 ### Iterating backwards
 ```
 for i in reversed(ls):
