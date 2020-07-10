@@ -26,7 +26,12 @@ Formatted print
 ```
 print("My name is {} {}".format(first, last))
 ```
-
+### Multi - line code
+```
+if a or b and c \
+or d:
+  print("blah")
+```
 ### Sort based on a key
 ```
 def sortKey(v):
@@ -82,7 +87,6 @@ comparisons are done between comparable types of objects only
 Sets don’t keep elements in sorted order or in any defined order
 
 ### Substring of a string
-s
 ```
 >>> a = ‘rahul’
 >>> a[1:3] 
