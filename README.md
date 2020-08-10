@@ -60,7 +60,15 @@ Multiply each element in a list by a number
 numbers = [1, 2, 3, 4, 5]
 numbers5 = [i* 5 for i in numbers]
 ```
-
+### filter and map
+```
+strings = ["rahul", "gurnani"]
+string_lengths = list(map(len, strings))
+```
+```
+numbers = [1, 2, 3, -1, -3]
+positive = list(filter(lambda x: x>0, numbers))
+```
 ### Enumerate and items
 
 enumerate(alist) to get i, v
