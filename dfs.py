@@ -1,3 +1,12 @@
+def dfs_recursive(G, root):
+    visited = set()
+    def dfs_helper(G, node):
+        print(node)
+        for neighbor in G[node]:
+            if neighbor not in visited:
+                dfs_helper(G, neighbor)
+    dfs_helper(G, root)
+    
 def dfs(G, root):
     stack = list()
     stack.append((root, None))  # stores (node, parent)
