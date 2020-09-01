@@ -11,7 +11,8 @@
 - max_heap - wrapper around heapq for min heaps (using negation of initial values)
 - Trie
 - Djikstra
-### TODO
+
+ TODOs
 - Prims
 - Kruskal
 
