@@ -42,7 +42,7 @@ ls.sort(key=sortKey) # [(5, 6), (2, 7)]
 
 `ord('a') # 97`
 
-## Chr to ASCII
+### Chr to ASCII
 
 `chr(97) # a` 
 
