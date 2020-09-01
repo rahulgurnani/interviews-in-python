@@ -1,4 +1,4 @@
-## Algorithms implemented in python
+### Algorithms implemented in python
 
 - Merge sort (0(nlogn) sorting)
 - Min heap (Native implementation)
@@ -95,6 +95,9 @@ Sets don’t keep elements in sorted order or in any defined order
 ```
 >>> a = ‘rahul’
 >>> a[1:3] 
+```
+### Writing multi-threaded programs in python
+TODO
 ‘ah’
 >>> a[1:-1]
 ahu
