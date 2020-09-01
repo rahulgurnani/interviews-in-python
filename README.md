@@ -95,9 +95,6 @@ Sets don’t keep elements in sorted order or in any defined order
 ```
 >>> a = ‘rahul’
 >>> a[1:3] 
-```
-### Writing multi-threaded programs in python
-TODO
 ‘ah’
 >>> a[1:-1]
 ahu
@@ -225,3 +222,5 @@ Useful if we have 2 lists which we want to combine and do some operations
 listpairs = list(zip(list1, list2))
 list1, list2 = zip(*listpairs)
 ```
+### Writing multi-threaded programs in python
+TODO
