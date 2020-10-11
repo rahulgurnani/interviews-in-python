@@ -224,4 +224,5 @@ listpairs = list(zip(list1, list2))
 list1, list2 = zip(*listpairs)
 ```
 ### Writing multi-threaded programs in python
-TODO
+
+[Synchronizing primitives in python](https://hackernoon.com/synchronization-primitives-in-python-564f89fee732)
