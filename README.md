@@ -83,6 +83,10 @@ s.find(pattern, start)
 ```
 find method uses Boyer-Moore algorithm.
 
+## Concatenating strings
+
+There is a + operator to join 2 strings or we could use s.join([s1, s2, s3]) where s is the separator string and s1, s2, s3 are the strings to be joined. Note that performance of join is better than + operator. The performance is better in case of join method is because the memory allocator allocates memory in one go in case of join method. 
+
 ### Mutable string
 TODO
 
