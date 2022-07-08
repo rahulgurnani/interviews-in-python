@@ -151,7 +151,23 @@ from collections import OrderedDict
 d = OrderedDict()
 d['a'] = 'x'
 ```
-Python doesn't have an implementation of sorted set.
+### Sorted set
+
+[sortedcontainers](https://pypi.org/project/sortedcontainers/0.8.4/) is a pure python library which has implementation for sorted data structures.
+```
+from sortedcontainers import SortedList, SortedSet, SortedDict
+
+l = SortedList([1,2])
+l.add(0) # O(logn)
+l.discard(1) # deletes value 1 from the list in O(logn)
+
+s = SortedSet(1,5)
+s.add(2) # O(logn)
+s.discard(1) # O(logn)
+if 5 in s:
+  print("found")
+```
+
 ### Graph
 defaultdict is often handy,
 
